@@ -1,25 +1,213 @@
-
-#Layer1
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: El Messiri;
+   font-weight: normal;
+   font-size: 17px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0 15px 0 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
 {
    background-color: transparent;
-   background-image: url('../img/_Red Blue Logistic Company Logo.png');
-   background-repeat: repeat;
-   background-position: center center;
-   background-attachment: scroll;
-   background-size: cover;
+   background-image: none;
+   border: 0px solid #FFFFFF;
    border-radius: 0px;
-   animation: pop 1000ms linear 0ms infinite normal both;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 300px)
+{
+#LayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   color: #000000;
+   font-family: El Messiri;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 32px;
+}
+#wb_Text1 p, #wb_Text1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Layer1
+{
+   background-color: #4472C4;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Icon1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_Icon1 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#Icon1
+{
+   height: 49px;
+   width: 62px;
+}
+#Icon1 i
+{
+   color: #FFC000;
+   display: inline-block;
+   font-size: 49px;
+   line-height: 49px;
+   vertical-align: middle;
+   width: 48px;
+}
+#wb_Icon1:hover #Icon1 i
+{
+   color: #FFC000;
+}
+#wb_Text2 
+{
+   background-color: #FF0000;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 4px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2
+{
+   color: #FFFFFF;
+   font-family: El Messiri;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 24px;
+}
+#wb_Text2 p, #wb_Text2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Icon1
+{
+   position: absolute;
+   left: 12px;
+   top: 30px;
+   width: 62px;
+   height: 49px;
+   text-align: center;
+   z-index: 1;
+}
+#wb_Text2
+{
+   position: absolute;
+   left: 68px;
+   top: 42px;
+   width: 54px;
+   height: 25px;
+   z-index: 2;
 }
 #Layer1
 {
    position: fixed;
    text-align: left;
+   visibility: hidden;
    left: 0px;
-   top: auto;
-   bottom: 0px;
-   width: 78px;
-   height: 70px;
-   z-index: 0;
+   top: 50%;
+   margin-top: -4px;
+   width: 168px;
+   height: 109px;
+   z-index: 4;
 }
 @media only screen and (max-width: 969px)
 {
@@ -28,11 +216,106 @@ body
    background-color: #FFFFFF;
    background-image: none;
 }
-#Layer1
+#wb_LayoutGrid1
 {
-   width: 50px;
-   height: 66px;
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid1
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   height: auto;
+   padding: 0 15px 0 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text1
+{
    visibility: visible;
    display: block;
+}
+#wb_Text1
+{
+   font-family: El Messiri;
+   font-weight: 400;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 25px;
+}
+#Layer1
+{
+   width: 138px;
+   height: 84px;
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+   background-image: none;
+}
+#wb_Icon1
+{
+   left: 2px;
+   top: 15px;
+   width: 58px;
+   height: 51px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#Icon1
+{
+   width: 58px;
+   height: 51px;
+}
+#Icon1 i
+{
+   line-height: 51px;
+   font-size: 51px;
+   width: 50px;
+}
+#wb_Text2
+{
+   left: 60px;
+   top: 28px;
+   width: 55px;
+   height: 26px;
+   visibility: visible;
+   display: inline;
+   background-color: #F3525A;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: El Messiri;
+   font-weight: 400;
+   font-size: 15px;
+   margin: 0;
+   padding: 0 0 0 7px;
+   text-align: left;
+   line-height: 27px;
 }
 }
